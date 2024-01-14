@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+
+:root {
+  --cor-principal: #ff2800;
+}
+
+body, div, p {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+.cabecalho {
+  background-color: #E93429;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  background-color: var(--cor-principal);
+}
+
+.descricao {
+  font-size: 16px;
+}
+
+.titulo-secao {
+  max-width: 1200px;
+  color: #000;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.servico {
+  width: 25%;
+  background-color: #F5F5F5;
+  border: 1px solid #DDD;
+  padding: 20px;
+  margin: 10px;
+  text-align: center;
+  display: inline-block;
+  background-color: #e4e4e4;
+  border-radius: 10px;
+}
+
+.imagem-servico {
+  max-width: 200px;
+  border-radius: 10px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.titulo-servico {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.descricao-servico {
+  font-size: 14px;
+}
+
+.rodape {
+  color: white;
+  text-align: center;
+  padding: 10px;
+  clear: both;
+  padding: 20px;
+  color: #fff;
+  background-color: var(--cor-principal);
+}
+
+.direitos-autorais {
+  font-size: 12px;
+}
+
+a {
+  text-decoration: none;
+  color:#000;
+}
+
+.servico:hover {
+  background-color: rgb(155, 248, 248);
+}

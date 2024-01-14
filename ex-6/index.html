@@ -1,0 +1,195 @@
+<!--
+    A família é composta por quatro pessoas: pai, mãe, filho adolescente e filha de 10 anos;
+    *Criar uma página para visualizar as  informações da sua organização da rotina da familia.
+    - O pai é vegetariano e gosta de cozinhar pratos saudáveis. Ele também pratica esportes e precisa de alimentos ricos em proteínas.
+    - A mãe é alérgica a nozes e frutos do mar, mas gosta de comida picante.
+    - O filho adolescente está em uma fase de crescimento e precisa de lanches saudáveis para levar para a escola.
+    - A filha de 10 anos adora comida italiana e está aprendendo a tocar piano.
+
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <title>Org. Familiar</title>
+</head>
+
+<body>
+    <header>
+        <aside class="menu">
+            <nav>
+                <ul class="header-menu">
+                    <li><a href="#top">Home</a></li>
+                    <li><a href="#top">Lista de Supermercado</a></li>
+                    <li><a href="#cardapio-semanal">Cardápio Semanal</a></li>
+                    <li><a href="#lista-de-tarefas">Lista de Tarefas</a></li>
+                </ul>
+            </nav>
+        </aside>
+        <div class="menu-spacing"></div>
+    </header>
+    <main>
+       <h1 class="titulo-geral"> Família Müller </h1>
+        <section class="lista-supermercado" id="lista-supermercado">
+            <h2 class="titulo-lista titulo-lista-supermercado">Lista de Supermercado</h2>
+            <ul>
+                <li>Detergente de Louças</li>
+                <li>1kg de Patinho</li>
+                <li>1kg de Farinha de Trigo</li>
+                <li>Suco de Uva</li>
+                <li>Refrigerante</li>
+                <li>Lasanha pronta</li>
+                <li>Barra de Chocolate</li>
+            </ul>
+        </section>
+        <section class="cardapio-semanal" id="cardapio-semanal">
+            <h2 class="titulo-lista">Cardápio semanal</h2>
+            <table class="tabela-cardapio">
+                <thead>
+                    <tr>
+                        <th></th>
+                        <th>Segunda</th>
+                        <th>Terça</th>
+                        <th>Quarta</th>
+                        <th>Quinta</th>
+                        <th>Sexta</th>
+                        <th>Sábado</th>
+                        <th>Domingo</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Café da Manhã</td>
+                        <td>Ovos mexidos e batida de banana</td>
+                        <td>Pão com pasta de amendoim e maçã</td>
+                        <td>Omelete e torradas</td>
+                        <td>Sanduíches naturais</td>
+                        <td>Tapiocas</td>
+                        <td colspan="2">Sanduíches, torradas, ovos cozidos, chá e achocolatado</td>
+                    </tr>
+                    <tr>
+                        <td rowspan="2">Almoço</td>
+                        <td>Arroz,feijão e salada</td>
+                        <td>Arroz, ovo e salada</td>
+                        <td>Macarrão e salada</td>
+                        <td>Arroz, feijão e salada</td>
+                        <td>Arroz, ovos cozidos e salada</td>
+                        <td>Lasanha de Brócolis</td>
+                        <td>Gnocchi</td>
+                    </tr>
+                    <tr>
+                        <td id="el-disfuncional">Bife de soja e Bife bovino</td>
+                        <td>Strog. veg. e strog. de frango</td>
+                        <td>Molhos: atomadado, branco e bolognesa</td>
+                        <td>Ovos fritos e Carne de panela</td>
+                        <td>Purê de abóbora e salsichão</td>
+                        <td>Camarão à Milanesa</td>
+                        <td>Sobremesa</td>
+                    </tr>
+                    <tr>
+                        <td>Lanche</td>
+                        <td>Banana</td>
+                        <td>Maçã</td>
+                        <td>Uva</td>
+                        <td>Banana</td>
+                        <td>Maçã</td>
+                        <td colspan="2">Chocolate</td>
+                    </tr>
+                    <tr>
+                        <td rowspan="2">Janta</td>
+                        <td>Arroz</td>
+                        <td>Omelete</td>
+                        <td>Peixe</td>
+                        <td>Purê e ovo cozido</td>
+                        <td>Arroz, salada</td>
+                        <td>Sopa de feijão</td>
+                        <td>Capeletti de Brócolis</td>
+                    </tr>
+                    <tr>
+                        <td>Ovos</td>
+                        <td>Salada</td>
+                        <td>Bife</td>
+                        <td>Guizado</td>
+                        <td>Omelete</td>
+                        <td>Salada</td>
+                        <td>Capeletti de Frango</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <section class="lista-de-tarefas" id="lista-de-tarefas">
+            <h2 class="titulo-lista">Lista de Tarefas</h2>
+            <h3 class="dia-tarefa">Segunda-feira</h3>
+            <ol>
+                <li>Organizar o café da manhã;</li>
+                <li>Levar as crianças na escola;</li>
+                <li>Fazer as compras da semana;</li>
+                <li>Levar o cachorro para passear;</li>
+                <li>Organizar as compras;</li>
+                <li>Preparar o almoço;</li>
+                <li>Buscar as crianças na escola;</li>
+                <li>Almoço</li>
+                <li>Auxiliar a filha com as aulas de piano.</li>
+                <li>Checkout.</li>
+            </ol>
+            <h3 class="dia-tarefa">Terça-feira</h3>
+            <ol>
+                <li>Organizar o café da manhã;</li>
+                <li>Levar as crianças na escola;</li>
+                <li>Levar o cachorro para passear;</li>
+                <li>Buscar as crianças na escola;</li>
+                <li>Almoço;</li>
+                <li>Ajudar o filho com o dever de casa;</li>
+                <li>Checkout.</li>
+            </ol>
+            <h3 class="dia-tarefa">Quarta-feira</h3>
+            <ol>
+                <li>Organizar o café da manhã;</li>
+                <li>Levar as crianças na escola;</li>
+                <li>Levar o cachorro para passear;</li>
+                <li>Preparar o almoço;</li>
+                <li>Buscar as crianças na escola;</li>
+                <li>Almoço;</li>
+                <li>Levar as crianças ao parque;</li>
+                <li>Checkout.</li>
+            </ol>
+            <h3 class="dia-tarefa">Quinta-feira</h3>
+            <ol>
+                <li>Organizar o café da manhã;</li>
+                <li>Levar as crianças na escola;</li>
+                <li>Levar o cachorro para passear;</li>
+                <li>Buscar as crianças na escola;</li>
+                <li>Almoço</li>
+                <li>Levar a filha à aula de piano;</li>
+                <li>Checkout.</li>
+            </ol>
+            <h3 class="dia-tarefa">Sexta-feira</h3>
+            <ol>
+                <li>Organizar o café da manhã;</li>
+                <li>Levar as crianças na escola;</li>
+                <li>Levar o cachorro para passear;</li>
+                <li>Preparar o almoço;</li>
+                <li>Buscar as crianças na escola;</li>
+                <li>Almoço;</li>
+                <li>Hora do filme;</li>
+                <li>Checkout.</li>
+            </ol>
+            <h3 class="dia-tarefa">Sábado/Domingo</h3>
+            <ol>
+                <li>Organizar o café da manhã;</li>
+                <li>Levar o cachorro para passear;</li>
+                <li>Preparar o almoço;</li>
+                <li>Almoço;</li>
+                <li>Levar as crianças para passear;</li>
+                <li>Checkout.</li>
+            </ol>
+        </section>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>
